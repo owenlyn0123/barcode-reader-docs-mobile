@@ -10,7 +10,7 @@ noTitleIndex: true
 
 # Advanced Usage
 
-`PublicRuntimeSettings` is the struct that inclueds the majority of available barcode decoding settings. There is a series of methods for you to get, optimize or even reset the settings. On this page, you will be guide on how to initialize, optimize or reset the barcode decoding settings.
+`PublicRuntimeSettings` is the struct that includes the majority of available barcode decoding settings. There is a series of methods for you to get, optimize or even reset the settings. On this page, you will be guide on how to initialize, optimize or reset the barcode decoding settings.
 
 ## Initialize Settings
 
@@ -86,7 +86,7 @@ runtimeSettings.localizationModes = new int[]{EnumLocalizationMode.LM_SCAN_DIREC
 
 **Step 3. updateRuntimeSettings**
 
-When you have alreay completed the settings, you can update the settings via method `updateRuntimeSettings`. All the settings you have configured will be updated to the barcode reader and the other settings will remains the same.
+When you have already completed the settings, you can update the settings via method `updateRuntimeSettings`. All the settings you have configured will be updated to the barcode reader and the other settings will remains the same.
 
 ```java
 PublicRuntimeSettings runtimeSettings = barcodeReader.getRuntimeSettings();
