@@ -12,7 +12,7 @@ noTitleIndex: true
 
 `PublicRuntimeSettings` is the struct that inclueds the majority of available barcode decoding settings. There is a series of methods for you to get, optimize or even reset the settings. On this page, you will be guide on how to initialize, optimize or reset the barcode decoding settings.
 
-## Initialize Settings
+## Settings initialization
 
 You can initialize the parameter settings for your Android barcode reader with a template or simply start with the default settings. When the template is added to the project, you can still add additional settings to the project to further optimize the performance of the barcode reader to cover your requirements.
 
@@ -54,7 +54,7 @@ reader.initRuntimeSettingsWithString("{\"Version\":\"3.0\", \"ImageParameter\":{
 reader.destroy();
 ```
 
-## Optimize Settings
+## Settings update
 
 The templates are designed to simplify the parameter settings. It might not cover the requirements. Modes parameters and other settings like barcode formats are available in the `PublicRuntimeSettings` class. You can use the following steps to change the settings. When you update the settings, only the newly configured settings will be changed and the other settings will remain the same.
 
